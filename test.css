@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("assest/gif/Web\ Development\ \(2\).gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+.container {
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sign-in-form {
+    background-color: rdga(23, 23, 23, 0);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(7, 0, 0.9);
+}
+.sign-in-form h1 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #0db7f0;
+    text-align: center;
+}
+.sign-in-form input[type="text"],
+.sign-in-form input[type="password"] {
+   background-color: transparent;
+    width: 94%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 3px solid #7d7b7b;
+    border-radius: 5px;
+    border-color: aqua;
+}
+.sign-in-form button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.sign-in-form button[type="submit"]:hover {
+    background-color: #3e04ee;
+
+}
+.sign-in-form p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(233, 238, 239);
+
+}
+
+.sign-in-form a {
+    text-decoration: none;
+    color: #02cee9;
+}
+
+.sign-in-form a:hover {
+    color: #cf1111;
+}
+
+
+.sign-in-form {
+    animation: fadeIn 5s;
+    
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 2;
+        transform: translateY(-600px);
+    }
+
+    100% {
+        opacity: 2;
+        transform: translateY(0);
+    }
+
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #15809b7d;
+    pad: 10px 20px;
+}
+.icon{
+    padding: 7px 10px;
+    background-color: transparent;
+    cursor: pointer;
+    border-color: transparent;
+    font-size: larger;
+    font-weight: 400px; 
+     color: #04daee;
+     text-align: center;
+}
+.separation{
+    background-color: #06f8f4f1;
+    height: 3px;
+    margin: 20px;
+    
+    
+}
+.icon-google:hover{
+  background-color: red;
+}
